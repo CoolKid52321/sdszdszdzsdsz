@@ -511,5 +511,5 @@ local Loader = {}
             script.Parent:TweenPosition(UDim2.new(0.5, 0,0.499, 0))
         end
         coroutine.wrap(DDIVBK_fake_script)()
-wait(4)
+wait(4.75)
         
