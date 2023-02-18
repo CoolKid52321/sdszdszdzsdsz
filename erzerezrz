@@ -260,7 +260,7 @@ local Loader = {}
         sound.SoundId = "rbxassetid://3320590485"
         sound.Parent = game:GetService("SoundService")
         sound:Play()
-            wait(1)
+            wait(2)
         
         
             script.Parent:TweenSize(UDim2.new(0, 165,0, 26))
@@ -362,7 +362,7 @@ local Loader = {}
         sound.Parent = game:GetService("SoundService")
         sound:Play()
         
-            wait(1.2)
+            wait(2)
             script.Parent:TweenSize(UDim2.new(0, 232,0, 26))
             script.Parent.Parent.Parent.LoadingText.Text = "Checking If Whitelisted.."
             print("[3/4] Checking if Whitelisted")
@@ -431,7 +431,7 @@ local Loader = {}
         sound.Parent = game:GetService("SoundService")
         sound:Play()
         
-            wait(1.5)
+            wait(3)
             script.Parent:TweenSize(UDim2.new(1,0,1,0))
             script.Parent.Parent.Parent.LoadingText.Text = "Executing UI"
             print("[4/4] Executing ui in 2S")
@@ -697,4 +697,4 @@ coroutine.resume(coroutine.create(function()
 	end
 end))
 task.wait(0.25)
-        
+       
