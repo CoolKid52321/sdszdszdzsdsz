@@ -499,7 +499,7 @@ local Loader = {}
         sound.SoundId = "rbxassetid://3320590485"
         sound.Parent = game:GetService("SoundService")
         sound:Play()
-            wait(1)
+            wait(0.1)
             script.Parent.Parent.Parent.Parent.Parent.azureLoader:Destroy()
         end
         coroutine.wrap(TFOQWM_fake_script)()
