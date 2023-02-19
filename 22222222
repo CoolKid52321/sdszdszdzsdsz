@@ -500,7 +500,7 @@ local Loader = {}
         sound.Parent = game:GetService("SoundService")
         sound:Play()
             wait(0.1)
-            script.Parent.Parent.Parent.Parent.Parent.azureLoader:Destroy()
+            script.Parent.Parent.Parent.Parent.Parent.azureLoader = 1
         end
         coroutine.wrap(TFOQWM_fake_script)()
         local function DDIVBK_fake_script()
