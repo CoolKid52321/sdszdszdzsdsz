@@ -499,8 +499,10 @@ local Loader = {}
         sound.SoundId = "rbxassetid://3320590485"
         sound.Parent = game:GetService("SoundService")
         sound:Play()
-            wait(0.1)
-            script.Parent.Parent.Parent.Parent.Parent.azureLoader = 1
+            wait(0.25)
+            goingDownxd:TweenPosition(UDim2.new(0.493, 0,1.07, 0))
+            wait(1)
+            script.Parent.Parent.Parent.Parent.Parent.azureLoader:Destroy()
         end
         coroutine.wrap(TFOQWM_fake_script)()
         local function DDIVBK_fake_script()
@@ -509,5 +511,5 @@ local Loader = {}
             script.Parent:TweenPosition(UDim2.new(0.5, 0,0.499, 0))
         end
         coroutine.wrap(DDIVBK_fake_script)()
-wait(6)
         
+wait(6)
